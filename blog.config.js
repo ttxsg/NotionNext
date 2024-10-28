@@ -17,10 +17,10 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '建模忠哥', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '专注数学建模🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://zxljj.ltd/', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '建模忠哥', // 网站关键词 英文逗号隔开
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '阿羽', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '服装设计作品集🍚', // 作者简介
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://shuxuejianmo.online/', // 网站地址
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '羽设', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '386@qq.com', // 邮箱地址 例如mail@tangly1024.com
